@@ -37,26 +37,32 @@ A console-based mini marketplace built in C++ where users can register as a **Bu
 ```
 BuyBye/
   src/
-    main.cpp        → entry point, menus
-    auth.cpp        → login, register, password hashing
-    stores.cpp      → store management (CRUD)
-    products.cpp    → product CRUD and search
-    orders.cpp      → buy product, order history, sales tracking
-    utils.cpp       → shared utility functions
-  include/
-    auth.h
-    stores.h
-    products.h
-    orders.h
-    utils.h
+    main.cpp           → entry point, menus
+    auth/
+      auth.cpp         → login, register, password hashing
+      auth.h
+    stores/
+      stores.cpp       → store management (CRUD)
+      stores.h
+    products/
+      products.cpp     → product CRUD and search
+      products.h
+    orders/
+      orders.cpp       → buy product, order history, sales tracking
+      orders.h
+    utils/
+      utils.cpp        → shared utility functions
+      utils.h
   data/
-    users.csv       → user accounts
-    stores.csv      → seller stores / branches
-    products.csv    → product listings
-    orders.csv      → order history
+    users.csv          → user accounts
+    stores.csv         → seller stores / branches
+    products.csv       → product listings
+    orders.csv         → order history
+  docs/
+    FLOW.md            → app flow diagrams
+    SCHEMA.md          → CSV structure details
   README.md
   TODO.md
-  CHANGELOG.md
   .gitignore
 ```
 

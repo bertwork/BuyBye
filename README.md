@@ -123,19 +123,6 @@ Launch BuyBye
 
 ---
 
-## 🔨 How to Compile
-```bash
-g++ src/main.cpp src/auth.cpp src/stores.cpp src/products.cpp src/orders.cpp src/utils.cpp -o BuyBye
-```
-
-## ▶️ How to Run
-```bash
-./BuyBye        # Linux / Mac
-BuyBye.exe      # Windows
-```
-
----
-
 ## 🛠️ Built With
 - **Language** — C++
 - **File Handling** — fstream
